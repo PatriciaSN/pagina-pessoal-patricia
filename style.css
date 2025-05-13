@@ -1,0 +1,119 @@
+/* Estilo geral da página */
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #fbeee6;
+    color: #4e342e;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Container com layout em duas colunas */
+  .container {
+    display: flex;
+    max-width: 900px;
+    background-color: #fff8f2;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Lado esquerdo com imagem */
+  .imagem {
+    flex: 1;
+    background: #ddd;
+  }
+  
+  .imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Lado direito com texto */
+  .conteudo {
+    flex: 2;
+    padding: 30px;
+  }
+  
+  h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 24px;
+    color: #6d4c41;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-top: 25px;
+    color: #8d6e63;
+  }
+  
+  p {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Lista com espaçamento */
+  ul {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+  }
+  
+  /* Estilo para tabela */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  img {
+    border-radius: 10px;
+  }
+  
+  /* Estilo para links */
+  a {
+    color: #8e5c4d;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #c77c63;
+    text-decoration: underline;
+  }
+  
+  /* Botão */
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #a1887f;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #8d6e63;
+  }
+  
+  /* Mensagem JS */
+  #mensagem {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #6d4c41;
+  }
+  
