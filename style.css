@@ -1,4 +1,3 @@
-/* Estilo geral da página */
 body {
     margin: 0;
     font-family: 'Georgia', serif;
@@ -8,8 +7,6 @@ body {
     display: flex;
     justify-content: center;
   }
-  
-  /* Container com layout em duas colunas */
   .container {
     display: flex;
     max-width: 900px;
@@ -18,8 +15,6 @@ body {
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
-  
-  /* Lado esquerdo com imagem */
   .imagem {
     flex: 1;
     background: #ddd;
@@ -30,8 +25,6 @@ body {
     height: 100%;
     object-fit: cover;
   }
-  
-  /* Lado direito com texto */
   .conteudo {
     flex: 2;
     padding: 30px;
@@ -55,8 +48,6 @@ body {
     font-size: 16px;
     line-height: 1.6;
   }
-  
-  /* Lista com espaçamento */
   ul {
     padding-left: 20px;
     margin-top: 10px;
@@ -65,8 +56,6 @@ body {
   ul li {
     margin-bottom: 8px;
   }
-  
-  /* Estilo para tabela */
   table {
     width: 100%;
     border-collapse: collapse;
@@ -92,8 +81,6 @@ body {
     color: #c77c63;
     text-decoration: underline;
   }
-  
-  /* Botão */
   button {
     margin-top: 20px;
     padding: 10px 20px;
@@ -105,12 +92,9 @@ body {
     font-family: inherit;
     font-size: 16px;
   }
-  
   button:hover {
     background-color: #8d6e63;
   }
-  
-  /* Mensagem JS */
   #mensagem {
     margin-top: 15px;
     font-weight: bold;
